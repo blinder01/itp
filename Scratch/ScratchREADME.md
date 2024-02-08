@@ -5,6 +5,8 @@
 Scratch Documentation
 
 I made a little baseball game :)
+[Here is my game!](https://scratch.mit.edu/projects/962966165)
+
 
 I did this by creating 2 variables: a timer, and a hit counter. Each time you click on the baseball, it adds 1 point to the hit counter. If you click on the basketball or balloon, it reduces your score by 1. Your timer has 10 seconds before the counter runs out. I did this with a loop that reduces every one second, 10 times.
 
