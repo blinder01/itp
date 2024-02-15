@@ -1,5 +1,3 @@
-one = 1
-two = 2
-mouse = one + two
-print(mouse , "\n\tBlind" , "\n\t\tMice")
+addition = 1+2 
+print(addition , "\n\tBlind" , "\n\t\tMice")
 
