@@ -2,7 +2,7 @@
 
 ## Brianna
 
-Chapter 1
+### Chapter 1
 
 2 things I knew
 
@@ -14,7 +14,7 @@ Chapter 1
   I did not know that ** is an exponent in Python.
   I was not aware of what tokens were, or what parsing was.
 
-Chapter 3
+#### Chapter 3
 
 2 things I knew
 
@@ -26,7 +26,7 @@ Chapter 3
   I did not understand what funtion calls were, and I still don't fully understand them. I can see where the name of the function is supposed to be. I think it returns whatever value is in parenthesis, and only does so with integers or floating points. Words do not seem to work.
   I did not know that there some functions don't return a value (void functions)
 
-Chapter 5
+##### Chapter 5
 
 2 things I knew
 
@@ -38,7 +38,7 @@ Chapter 5
   I did not know what floor division was. Coming from experience in C#, seeing the // made me think it was just a note to tell yourself what the funtions meant at first.
   I had no clue what recursion was at first, and still need a bit of a deeper explanation on it. Doing a hands on project would help as well.
 
-Chapter 10
+###### Chapter 10
 
 2 things I knew
 
