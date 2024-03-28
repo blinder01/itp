@@ -33,7 +33,7 @@ def draw():
         for j in range(gridScale):
             drawObject(i * width/gridScale, j * width/gridScale, gridScale)
 
-obviously this didn't work either. I tried moving around a bunch of other things to no avail for like 2 hours. I tried to use chatGPT to figure out what I was doing wrong, and told it that my intentions were to change the scale of the printed image. It could not figure out what I meant, and I was in a death loop with it for another hour. I eventually gave up on it. I honestly could not even get it to do simple maths. It is kinda stupid.
+obviously this didn't work either. I tried moving around a bunch of other things to no avail for like 2 hours.
 
 After not being able to figure it out for a very, very long time, I turned to my fellow classmate Neil, who was gracious and wonderful enough to give me a hand and look at my code. He discovered that I was not using a scale factor correctly, and asked that I figure out the increments that I was printing tiles at. I found that I was printing a tile every 80 pixels, giving me an equation to work with. I promised him ice cream.
 
