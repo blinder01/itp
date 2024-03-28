@@ -1,10 +1,10 @@
 def setup():
-    size(100, 100) # Set the size of canvas
-    noStroke() # Disable drawing the stroke
+    size(100, 100) 
+    noStroke() 
 
 def draw():
     rectMode(CENTER)
-    fill(0) # fill with black
+    fill(0) 
     rect(50, 50, 10, 30)
     triangle(45, 65, 35, 60, 45, 55)
     triangle(55, 65, 65, 60, 55, 55)

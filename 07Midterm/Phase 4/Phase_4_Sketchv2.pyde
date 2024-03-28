@@ -1,5 +1,5 @@
 def setup():
-    size(400, 400)  # Set the size of canvas
+    size(400, 400)  
     noStroke()  
 
 def drawObject(x, y, s):

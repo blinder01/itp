@@ -7,7 +7,7 @@ def drawObject(x,y,s):
     translate(x,y)
     scale(s)
     rectMode(CENTER)
-    fill(0) # fill with black
+    fill(0) 
     rect(50, 50, 10, 30)
     triangle(45, 65, 35, 60, 45, 55)
     triangle(55, 65, 65, 60, 55, 55)
@@ -18,4 +18,4 @@ def drawObject(x,y,s):
     
 def draw():
     drawObject(0,0,1)
-    drawObject(0,200,1)
+    drawObject(0,200,2)
