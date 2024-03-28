@@ -1,14 +1,13 @@
 def setup():
     size(400, 400)  # Set the size of canvas
-    noLoop()  # Disable continuous looping
-
+    noStroke()  
 
 def drawObject(x, y, s):
     push()
     translate(x, y)
     scale(s)
     rectMode(CENTER)
-    fill(0)  # fill with black
+    fill(0) 
     rect(50, 50, 10, 30)
     triangle(45, 65, 35, 60, 45, 55)
     triangle(55, 65, 65, 60, 55, 55)
@@ -21,8 +20,7 @@ def drawObject(x, y, s):
 
 def draw():
     background(255)  
-    gridScale = 20
-    # Draw the object at the center of the canvas
+    gridScale = 5
     for i in range(gridScale):
         for j in range(gridScale):
             drawObject(i * width/gridScale, j * width/gridScale, 4.0/gridScale)
